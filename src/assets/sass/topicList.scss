@@ -1,0 +1,43 @@
+
+.topics{
+    width: rem(710px);
+    margin:0 auto;
+    .topic{
+      display: flex;
+      height: rem(80px);
+      align-items: center;
+      border-bottom:1px solid #ccc;
+      margin-bottom: rem(10px);
+      img{
+        width: rem(60px);
+        height: rem(60px);
+        border-radius:rem(8px);
+        margin-right: rem(15px);
+      }
+      .tab{
+        div{
+          width: rem(70px);
+          height: rem(50px);
+          background-color: #f6f6f6;
+          text-align: center;
+          line-height: rem(50px);
+          margin:0 rem(15px) 0 0;
+          border-radius: rem(8px);
+          color:#999;
+          font-size: rem(24px);            
+        }
+        .top{
+          background-color: #80bd01;
+          color:#fff;
+        }         
+      }
+      p{
+        flex:1;
+        font-size: rem(30px);
+        color:#333;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
